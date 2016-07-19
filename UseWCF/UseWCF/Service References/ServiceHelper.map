@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://tw-wse-lab03.client.tw.trendnet.org/TrendMicro.SOA5.SOAService.Host/ServiceHelper.svc"
+		Name="ServiceHelper"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://tw-wse-lab03.client.tw.trendnet.org/TrendMicro.SOA5.SOAService.Host/ServiceHelper.svc"
+			BindingConfiguration="BasicHttpBinding_IServiceHelper"
+			Contract="UseWCF.ServiceHelper.IServiceHelper"
+			>
+		</EndPoint>
+		<EndPoint
+			Address="http://tw-wse-lab03.client.tw.trendnet.org/TrendMicro.SOA5.SOAService.Host/ServiceHelper.svc/ws"
+			BindingConfiguration="WSHttpBinding_IServiceHelper"
+			Contract="UseWCF.ServiceHelper.IServiceHelper"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>
